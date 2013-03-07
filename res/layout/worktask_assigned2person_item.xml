@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item_3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="19dp"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/main_menu_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center" >
+
+        <EditText
+            android:id="@+id/item_1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="19dp"
+            android:text=""
+            android:textSize="26dp"
+            android:textStyle="bold" />
+
+<!--         <ImageView -->
+<!--             android:id="@+id/item_img" -->
+<!--             style="@style/form_w_f_centerVertical" -->
+<!--             android:layout_alignParentRight="true" -->
+<!--             android:paddingRight="30dp" -->
+<!--             android:src="@drawable/next_button" /> -->
+
+<!--         <TextView -->
+<!--             android:id="@+id/item_2" -->
+<!--             style="@style/form_w_f_centerVertical" -->
+<!--             android:layout_marginRight="40dp" -->
+<!--             android:layout_toLeftOf="@id/item_img" -->
+<!--             android:gravity="right|center_vertical" -->
+<!--             android:text="" -->
+<!--             android:textColor="#0700ff" -->
+<!--             android:textSize="26dp" -->
+<!--             android:textStyle="bold" /> -->
+    </RelativeLayout>
+
+</LinearLayout>

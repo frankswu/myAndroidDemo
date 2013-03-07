@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <!-- android:background="@drawable/pop_0" -->
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="时间"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:gravity="left"
+                android:padding="3dip"
+                android:singleLine="false"
+                android:textColor="#000000" />
+            <!-- android:text="2012-08-09 12:30:44" -->
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="部门"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtDepartment"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:padding="3dip"
+                android:singleLine="false"
+                android:textColor="#000000" />
+            <!-- android:text="李星" -->
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="专业"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtSpecialty"
+                android:gravity="left"
+                android:padding="3dip"
+                android:singleLine="false"
+                android:textColor="#000000" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="问题"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtQuestion"
+                android:gravity="left"
+                android:padding="3dip"
+                android:singleLine="false"
+                android:textColor="#000000" />
+            <!-- android:text="2012-08-09 12:30:44" -->
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="对象"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtObject"
+                android:layout_width="wrap_content"
+                android:gravity="left"
+                android:padding="3dip"
+                android:singleLine="false"
+                android:textColor="#000000" />
+            <!-- android:text="李星" -->
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_column="1"
+                android:padding="3dip"
+                android:text="状态"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtStatus"
+                android:gravity="left"
+                android:padding="3dip"
+                android:singleLine="false"
+                android:textColor="#000000" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
